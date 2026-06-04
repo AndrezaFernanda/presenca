@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Ambiente virtual
+.venv/
+venv/
+env/
+ENV/
+
+# Banco de dados SQLite (dados locais — não versionar em produção)
+*.db
+*.sqlite
+*.sqlite3
+
+# Configurações sensíveis
+.env
+.streamlit/secrets.toml
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDEs
+.idea/
+.vscode/
+*.code-workspace
+
+# Logs
+*.log
+logs/
+
+# Cobertura de testes
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
